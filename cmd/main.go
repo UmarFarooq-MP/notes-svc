@@ -15,7 +15,7 @@ func main() {
 
 	fmt.Println("Server started on http://localhost:8080")
 
-	if err := goHttp.ListenAndServe(":8080", router); err != nil {
+	if err := goHttp.ListenAndServe(":8081", router); err != nil {
 		fmt.Println("Error running server:", err)
 	}
 }
